@@ -17,7 +17,7 @@ body{
 
 section{
     background-color: #fff;
-    height: 400px;
+    height: 450px;
     width: 600px;
     border-radius: 10px;
     position: relative;
@@ -84,14 +84,18 @@ section div#box-log button{
     cursor: pointer;
     background-color: #fff;
     box-shadow: 1px 1px 5px #000;
-    margin-left: 15px;
+    margin-left: 10px;
     transition: 0.5s;
 }
 
-section div#box-log button:hover{
+section div#box-log button:focus{
     text-decoration: underline;
     border: 1px solid #000;
     box-shadow: 1px 1px 5px inset #000;
+
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
 }
 
 section h1{
@@ -100,3 +104,17 @@ section h1{
     text-align: center;
 }
 
+section div#box-link{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+section div#box-link a{
+    text-decoration: none;
+    color: #000;
+}
+
+section div#box-link a:hover{
+    text-decoration: underline;
+}
