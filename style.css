@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', normal;
+}
+
+body{
+    min-height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    background-color: #fff;
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    position: relative;
+}
+
+section div#box-log{
+    margin-left: 190px;
+    padding: 20px 0 0;
+    min-height: 250px;
+}
+
+section div#box-log #box-ema{
+    background-color: rgb(248, 223, 193);
+    max-width: 216px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 5px #000;
+}
+
+section div#box-log #box-ema i{
+    padding: 3px;
+}
+
+section div#box-log #box-ema input{
+    border: none;
+    background-color: rgb(248, 223, 193);
+}
+
+section div#box-log #box-pas{
+    background-color: rgb(248, 223, 193);
+    max-width: 216px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 5px #000;
+}
+
+section div#box-log #box-pas i{
+    padding: 3px;
+}
+
+section div#box-log #box-pas input{
+    border: none;
+    background-color: rgb(248, 223, 193);
+}
+
+section div#box-log #box-pas input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+section div#box-log #box-ema input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+section div#box-log button{
+    padding: 20px 80px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #000;
+    margin-left: 15px;
+    transition: 0.5s;
+}
+
+section div#box-log button:hover{
+    text-decoration: underline;
+    border: 1px solid #000;
+    box-shadow: 1px 1px 5px inset #000;
+}
+
+section h1{
+    font-size: 40px;
+    padding: 50px 0 30px;
+    text-align: center;
+}
+
